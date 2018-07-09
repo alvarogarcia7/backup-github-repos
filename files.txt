@@ -1,0 +1,5 @@
+set -euxo pipefail
+
+./entry-point.sh backup-github-repos
+./entry-point.sh katas-we-love
+
